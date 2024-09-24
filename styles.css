@@ -4,36 +4,37 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-  }
+   }
   
 
 img{
     height: 100px;
     width: 100px;
-}
-
+    float:left;
+   }
+  
 
 .logo{
-    width: 100px;
+  width: 100px;
   height: 50px;
   position: absolute;
   top: 10px;
   left: 5px;
-}
+  }
 
-nav {
+nav{
 display:block;
     height: 70px;
     width: 100%;
   }
   
-  nav ul {
+  nav ul{
     float: right;
     margin-right: 20px;
   
-}
+  }
   
-  nav ul li {
+  nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
@@ -46,7 +47,7 @@ display:block;
     margin-top: 20px;
   }
 
-  .flex-container {
+  .flex-container{
     display: flex;
     background-color: white;
   }
@@ -58,9 +59,8 @@ display:block;
     font-size: 30px;
   }
 
- .mainhead{
+  .mainhead{
    text-align: center;
-
   }
 
   input{
@@ -70,9 +70,28 @@ display:block;
     align-items: center;
   }
 
-.center{
-  margin:auto;
-  width:50%;
-  padding: 10px;
-  
-}
+  .center{
+   text-align: center;
+   margin: 40px;
+   }
+
+  .lcenter{
+  text-align: center;
+  align-content: center;
+  padding: 35px;
+  }
+
+  .left{
+  color: blue;
+  }
+
+ .logo1{
+  /*Position absolute stays in place*/
+  position: absolute;
+  right:1250px;
+  border: 3px solid #73AD21;
+  }
+
+video{
+  margin: 50px;
+ }
