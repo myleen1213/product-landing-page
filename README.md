@@ -1,6 +1,6 @@
 # Meta quest product landing page
 
-Product landing page to maket meta quest VR
+Product landing page with smooth navigation and minimal design to market meta quest VR
 
 https://github.com/user-attachments/assets/0b17013d-9149-4270-a01f-ed60f84e5479
 
